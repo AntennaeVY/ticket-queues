@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Queue</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!-- <body class="container"> -->
+
+  <body>
+    <table>
+      <tr>
+        <td valign="middle" class="actual-ticket">
+          <span id="ticket1" class="number-actual-ticket">Ticket W</span>
+          <br />
+          <span id="desk1" class="desk-actual-ticket">Desk W</span>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <span id="ticket2" class="secondary-ticket">Ticket X</span>
+                <br />
+                <span id="desk2">Desk X</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="ticket3" class="secondary-ticket">Ticket Y</span>
+                <br />
+                <span id="desk3">Desk Y</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span id="ticket4" class="secondary-ticket">Ticket Z</span>
+                <br />
+                <span id="desk4">Desk Z</span>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/socket-queue.js"></script>
+  </body>
+</html>
