@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
     })
     .then(() => {
       console.log("DB is connected");
+      require("../services/TicketControl/TicketControl.service").initializateTicketControl();
     })
     .catch((e) => {
       console.log("DB Error: ", e);

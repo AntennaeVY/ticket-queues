@@ -15,7 +15,6 @@ app.use(express.static(path.resolve(__dirname, "../public")));
 
 // Database
 require("./database/database");
-require("./services/TicketControl/TicketControl.service").initializateTicketControl();
 
 // Socket.io
 module.exports.io = socketIO(server);
