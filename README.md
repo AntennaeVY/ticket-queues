@@ -7,7 +7,7 @@
 
 # Ticket Queues
 
-Welcome to my second project, this is a backend project made with NodeJS, Express, and SocketIO
+Welcome to my second project, this is a backend project made with NodeJS, Express, MongoDB and SocketIO
 
 This project is made for queue management with a ticket/desk system.
 
