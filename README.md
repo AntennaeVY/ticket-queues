@@ -13,16 +13,20 @@ This project is made for queue management with a ticket/desk system.
 
 This project consists in 4 pages:
 
-1.  Index
+### 1.  Index
+
 Main page which leads to the other 3 pages
 
-3.  Create Tickets
+### 2.  Create Tickets
+
 You can create new tickets and then assignate any of them to a particular desk which will have the responsability to serve it, any ticket you create will be considered a pending ticket *(no desk assignated)*
 
-4. Desk
+### 3. Desk
+
 You can go to any desk number and start serving tickets for that particular desk, any ticket you serve will be updated in the queue
 
-5. Queue
+### 4. Queue
+
 You can see in real time which are the currently served tickets *(only displays the last 4)* and plays a sound everytime a new ticket is served
 
 > **_Currently this project is deployed with Heroku, so it doesn't own an official domain._**
