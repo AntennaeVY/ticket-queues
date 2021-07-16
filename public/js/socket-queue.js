@@ -12,12 +12,14 @@ var socket = io();
 
 socket.on("connect", function () {
   console.log("Connected to the server");
-  socket.emit("updateScreen", null, function (lastFour) {
+  socket.emit("getUpdatedScreen", null, function (lastFour) {
     updateQueue(lastFour);
   });
 });
 
 socket.on("updateScreen", function (lastFour) {
+  var audio = new Audio("/audio/new-ticket.mp3");
+  audio.play();
   updateQueue(lastFour);
 });
 
