@@ -40,4 +40,4 @@ Feature suggestion? Bug to report?
 ## License
 
 Free software. Do whatever the hell you want with it.  
-Shrink It ! is released under the [MIT license](LICENSE).
+Ticket Queues is released under the [MIT license](LICENSE).
